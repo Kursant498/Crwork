@@ -35,6 +35,7 @@ class MainWindow(QWidget):
 
         self.btn2 = QPushButton("Удалить")
         self.btn2.clicked.connect(self.delete)
+        form.addWidget(self.btn2)
 
         laoyut.addLayout(form)
         self.setLayout(laoyut)
